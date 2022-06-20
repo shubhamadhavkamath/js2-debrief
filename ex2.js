@@ -4,14 +4,14 @@
 // Hint: check particularly for incorrect marks/syntax, mispelled functions, and that information is returned from a function if needed.
 
 function concatenate(first, last) {
-    var full;
-    full = `My name is ${first} ${last} !";
-   
+    let full;
+    full = `My name is ${first} ${last} !`;
+    return full;
   }
-  getName(first, lastName) {
-    var result;
-    result = concate(firstName, lastName);
-    console.log(result );
+function getName(firstName, lastName) {
+    let result;
+    result = concatenate(firstName, lastName);
+    console.log(result);
   }
-  secondFunction("Zara’, "Williams");
+  getName("Zara", "Williams");
   
